@@ -1,48 +1,103 @@
 .day2 {
-  &__artistName {
-    color: white;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 20px;
+
+
+  &__interpunct {
+    text-align: right;
+    color: orangered;
+    lline-height: 20px;
 
     &__firstRow {
+      text-align: right;
+      color: orangered;
+      font-size: 36px;
+      display: inline;
+      padding-right: 5px;
+      line-height: 20px;
+    }
+
+    &__secondRow {
+      text-align: right;
+      color: orangered;
+      font-size: 30px;
+      display: inline;
+      padding-right: 5px;
+      line-height: 20px;
+    }
+    &__thirdRow {
+      text-align: right;
+      color: orangered;
+      font-size: 25px;
+      display: inline;
+      padding-right: 5px;
+      line-height: 20px;
+    }
+
+    &__fourthThroughSeventhRow {
+      text-align: right;
+      color: orangered;
+      font-size: 20px;
+      display: inline;
+      padding-right: 5px;
+      line-height: 20px;
+    }
+
+  }
+  &__artistName {
+    color: white;
+    text-align: right;
+    margin-bottom: 0%;
+
+    &__firstRow {
+      text-align: right;
       color: white;
       font-size: 25px;
       display: inline;
-      padding-left: 10px;
+      padding-right: 5px;
     }
     &__secondRow {
+      text-align: right;
       color: white;
       font-size: 19px;
       display: inline;
-      padding-left: 10px;
+      padding-right: 5px;
     }
     &__thirdRow {
+      text-align: right;
       color: white;
       font-size: 16px;
       display: inline;
-      padding-left: 10px;
+      padding-right: 5px;
     }
     &__fourthRow {
+      text-align: right;
       color: white;
       font-size: 13px;
       display: inline;
-      padding-left: 10px;
+      padding-right: 5px;
     }
     &__fifthRow {
+      text-align: right;
       color: white;
       font-size: 13px;
       display: inline;
-      padding-left: 10px;
+      padding-right: 5px;
     }
     &__sixthRow {
+      text-align: right;
       color: white;
       font-size: 13px;
       display: inline;
-      padding-left: 10px;
+      padding-right: 5px;
     }
     &__seventhRow {
+      text-align: right;
       color: white;
       font-size: 13px;
       display: inline;
-      padding-left: 10px;
+      padding-right: 5px;
     }
   }
 }
